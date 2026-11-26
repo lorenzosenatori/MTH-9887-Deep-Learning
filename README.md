@@ -1,6 +1,6 @@
 # Attention Factors for Statistical Arbitrage: presentation and replication
 
-Group 2 (Transformers), Assignment 1 of Deep Learning in Finance (MTH 9889 Data Science III),
+Group 2 (Transformers), Assignment 1 of Deep Learning in Finance (MTH 9887 Data Science III),
 Baruch MFE, Fall 2026. Chaithanya Pakala, Lorenzo Senatori, Daniel Tuzes.
 
 **The paper.** Elliot L. Epstein, Rose Wang, Jaewon Choi and Markus Pelger (2025). "Attention
