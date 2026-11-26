@@ -1,0 +1,14 @@
+# Python 3.12 or newer. The versions below are those the reported runs and tests used.
+# CPU-only PyTorch (no GPU is needed):
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.11.0
+numpy==2.4.2
+pandas==2.2.3
+pyarrow==24.0.0
+requests==2.32.5
+scipy==1.17.0
+matplotlib==3.10.8
+pytest==9.0.2
+
+# To run notebooks/results.ipynb (it is also saved with its outputs):
+jupyterlab

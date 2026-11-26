@@ -1,0 +1,10 @@
+# Licensed WRDS data (CRSP, Compustat) must never be committed or published.
+/data/
+# Full output of scripts/run.py: portfolio weights per security, models, logs. Not committed.
+# (results/runs/ holds only metrics.json and daily.csv of each run and IS committed.)
+/runs/
+.venv/
+.venv-create.log
+__pycache__/
+.pytest_cache/
+*.log

@@ -1,0 +1,32 @@
+# Repository-wide ignore rules: a second line of defence.
+# The replication keeps its own, more detailed file: replication/.gitignore.
+
+# --- Licensed WRDS data (CRSP, Compustat): never commit it, wherever it sits.
+replication/data/
+*.parquet
+data.tar.gz
+attention-factors-replication-data-*.tar.gz*
+
+# --- Full output of the training runs: portfolio weights per security, models, logs.
+# (replication/results/runs/ holds only metrics.json and daily.csv of each run and IS committed.)
+replication/runs/
+*.npy
+*.npz
+*.pt
+
+# --- Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# --- Environments, dependencies, caches, build output
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+
+# --- Editor and system files
+.DS_Store
+Thumbs.db
+*.swp
